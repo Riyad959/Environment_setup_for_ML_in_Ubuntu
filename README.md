@@ -6,14 +6,14 @@ Environment creation guide for Machine Learning on Ubuntu. Follow these steps to
 **Step 1:**
 - Create a new environment and go into it.
 ######
-        conda create --name new_name_for _env
+    conda create --name new_name_for_env
 ######
-        conda activate cloned_env
+    conda activate new_name_for_env
 
 **Step 2:**
 - Update the 2nd environment using the file.
 ######
-        conda env update --name root --file environment.yml
+    conda env update --name new_name_for_env --file /home/riyad/Documents/environment.yml
 > [!IMPORTANT]
 > it might change
 > [content link](https://iq.opengenus.org/clone-conda-environment)
