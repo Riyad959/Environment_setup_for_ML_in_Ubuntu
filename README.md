@@ -1,5 +1,5 @@
-# Env-setup
-TensorflowGPU setup for ubuntu
+# Environment_setup_for_ML_in_Ubuntu
+TensorflowGPU setup for Ubuntu 24.04.1 LTS
 
 Environment creation guide for Machine Learning on Ubuntu. Follow these steps to complete the setup
 
@@ -15,8 +15,11 @@ Environment creation guide for Machine Learning on Ubuntu. Follow these steps to
 ######
     conda env update --name new_name_for_env --file /home/riyad/Documents/environment.yml
 > [!IMPORTANT]
-> it might change
-> [content link](https://iq.opengenus.org/clone-conda-environment)
+> Change **"new_name_for_env"** according to your desire neme.
+
+> [!TIP]
+> Clone Conda Environment
+> [Documentation link](https://iq.opengenus.org/clone-conda-environment)
 <p align="center">Happy Coding 🐞</p>
 
 ## Contact
